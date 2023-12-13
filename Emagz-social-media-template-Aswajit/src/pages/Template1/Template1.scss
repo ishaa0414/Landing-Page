@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+#post1:checked ~ #ActiveImageContainer {
+	margin-left: 0;
+}
+#post2:checked ~ #ActiveImageContainer {
+	margin-left: -20rem;
+}
+#post3:checked ~ #ActiveImageContainer {
+	margin-left: -40rem;
+}
+#post4:checked ~ #ActiveImageContainer {
+	margin-left: -60rem;
+}
+#post5:checked ~ #ActiveImageContainer {
+	margin-left: -80rem;
+}

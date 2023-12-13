@@ -1,0 +1,59 @@
+.NavBar {
+	width: 100vw;
+	background: #000;
+	display: flex;
+	padding: 36px 63.5px 36px 46.5px;
+	align-items: center;
+	justify-content: space-between;
+
+	@media screen and (max-width: 900px) {
+		flex-direction: column;
+		gap: 64px;
+		align-items: flex-start;
+	}
+
+	button {
+		border-radius: 10px;
+		background: #2d2d2d;
+		color: #fff;
+		font-family: "Poppins";
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 99.5%;
+		border: none;
+		height: 48px;
+		width: 150px;
+		cursor: pointer;
+
+		&.Publish {
+			background: #0d48bb;
+		}
+
+		&.Icon {
+			height: 48px;
+			width: 48px;
+		}
+	}
+
+	.Left {
+		display: flex;
+		gap: 33px;
+		align-items: center;
+	}
+	.Right {
+		display: flex;
+		gap: 12px;
+		align-items: center;
+
+		@media screen and (max-width: 900px) {
+			flex-direction: column;
+			align-items: flex-start;
+            width: 100%;
+
+            button{
+                width: 100%;
+            }
+		}
+	}
+}
